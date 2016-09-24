@@ -1,15 +1,15 @@
 const Chai = require('chai');
 let Expect = Chai.expect;
-const sortingAlgortihms = require('../js/bubblesort');
+const arraySorts = require('../js/bubblesort');
 
-describe ('sortingAlgortihms Function', function(){
+describe ('arraySorts Function', function(){
   var mySorts;
   beforeEach(function (){
-    mySorts = sortingAlgortihms();
+    mySorts = arraySorts();
   });
       // test point 1, must pass if you connected correctly the js file in Step7
   it('Should exist',() => {
-    Expect(sortingAlgortihms).to.be.a('function');
+    Expect(arraySorts).to.be.a('function');
   });
   it('Should have a bubbleSort methode',() => {
     Expect(mySorts.bubbleSort).to.be.a('function');

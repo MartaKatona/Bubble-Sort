@@ -1,4 +1,4 @@
-var sortingAlgorithmsModule = (function() {
+var arraySorts = (function() {
 var module = {};
 
 module.bubbleSort = function (array){
@@ -38,4 +38,4 @@ return module;
 });
 
 
-module.exports = sortingAlgorithmsModule;
+module.exports = arraySorts;
